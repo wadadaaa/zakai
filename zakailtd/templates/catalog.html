@@ -1,0 +1,116 @@
+
+{% load thumbnail %}
+{% load flatpages %}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/main.css" />
+
+    <title>{{ index_page.title }}</title>
+
+
+</head>
+<body>
+<div id="page">
+    <!-- head -->
+    <div id="head" class="block">
+
+        <div id="logo"><img src="{{ STATIC_URL }}css/images/logo2.png"></div>
+        <div id="cntcts">Tel: 972-2-5901333 <br> Fax: 972-2-5901336</div>
+    </div>
+
+
+
+    <!-- navigation -->
+    <div id="nav">
+        <div id="nav_activ"><a href="/">Home</div>
+        <div class="nav"><a href="/profile/">Profile</a></div>
+        <div class="nav"><a href="/catalog/">Catalog</a></div>
+        <div class="nav"><a href="/representations/">Representations</a></div>
+        <div class="nav"><a href="/contact/">Contact us</a></div>
+    </div>
+
+
+    <!-- slideshow -->
+    <div id="ssh" class="block">
+
+        <!-- catalog -->
+        <div id="ctlg" class="block">
+
+            <div id="txt_ctlg">
+
+                <!-- content -->
+
+                <div class="page_path">
+                    <a href="#">Home</a>
+                    >
+                    Catalog
+                </div>
+
+
+
+        <div class="catalog_list">
+            <h1>{{ catalog.en_name }}</h1>
+            <div class="catalog_list_item">
+
+        {% if childs %}
+
+                    {% for child in childs %}
+
+                     <img src="{{ child.photo|thumbnail_url:'small' }}">
+                     <br>
+                     <a href="{{ child.get_absolute_url }}">{{ child.en_name }}</a>
+
+                   {% endfor %}
+
+            {% endif %}
+            </div>
+        </div>
+
+                <div class="catalog_list">
+
+                <div class="catalog_list_item">
+                    {% if catalog.product_set.all %}
+
+
+                        {% for product in catalog.product_set.all %}
+
+                           <img src="{{ product.photo|thumbnail_url:'small' }}">
+
+                           <a href="{{ product.get_absolute_url }}">{{ product.en_name }}</a>
+
+                        {% endfor %}
+
+                     {% endif %}
+
+                </div>
+                <br>
+                </div>
+
+        </div>
+
+</div>
+ </div>
+
+
+<!-- footer -->
+<div id="ftr" class="block">
+    <div id="txt_ftr">&copy;2012 Zakai Agricultural Know-How & Inputs Ltd.<br>
+        Industrial Area Mishor Adumim Israel 98510<br>
+        Tel: 972-2-5901333 Fax: 972-2-5901336   Email: <a href="mailto:zakai@zakailtd.co.il">zakai@zakailtd.co.il
+    </div>
+
+    <div id="nav_ftr">
+        <div class="nav_ftr"><a href="/zakai/#">Home</a></div>
+        <div class="nav_ftr"><a href="/profile/">Profile</a></div>
+        <div class="nav_ftr"><a href="/catalog/">Catalog</a></div>
+        <div class="nav_ftr"><a href="/representations/">Representations</a></div>
+        <div class="nav_ftr"><a href="/contact/">Contact us</a></div>
+    </div>
+</div>
+    </div>
+
+
+</body>
+</html>

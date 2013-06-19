@@ -1,0 +1,294 @@
+body {
+    margin: 0px;
+    background: url(images/bg3.png);
+    font-family: "Trebuchet MS";
+    background-attachment: fixed;
+
+}
+
+div {
+    border: 0px solid black;
+
+}
+
+#page {
+
+    width: 960px;
+    margin: 0px auto;
+
+}
+
+.block {
+    margin-bottom: 10px;
+}
+
+#head {
+    display: inline-block;
+    height: 110px;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#logo {
+    display: inline;
+    float: left;
+    padding: 20px 40px;
+}
+
+#cntcts {
+    color: #6e6d6c;
+    display: inline;
+    float: right;
+    padding: 21px 40px;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+#nav {
+    margin-left: 190px;
+}
+
+.nav  > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav  > a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#nav_activ {
+    display: inline-block;
+    background: #ffffff;
+    color: #006600;
+    border-radius: 10px;
+    padding: 3px 15px;
+    margin-right: -10px;
+    margin-left: 13px;
+}
+
+.ssh {
+    width: 100%;
+    height: 295px;
+    border-radius: 15px;
+}
+
+#ctlg {
+    background: #ffffff;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+#txt_ctlg {
+    padding: 30px 40px;
+    display: inline-block;
+    width: 100%;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+
+
+}
+#txt_ctlg_pr{
+
+    font-size: 16px;
+    line-height: 1.5;
+
+
+}
+
+.col_ctlg {
+    display: inline-block;
+    margin: 50px 0px 30px 65px;
+
+}
+
+.lnk_ctlg {
+    display: block;
+    color: #006699;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.img_ctlg {
+    display: block;
+    margin-top: 40px;
+}
+.img_ctlg_pr{
+    /* border: 5px solid #c2c2c2; /* Параметры рамки */
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+#ftr {
+    border-radius: 15px 15px 0px 0px;
+    height: 85px;
+    background: #003300;
+    margin-bottom: 0px;
+}
+
+#txt_ftr {
+    display: inline-block;
+    float: left;
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px auto auto 40px;
+}
+
+#txt_ftr  > a {
+    color: white;
+}
+
+#nav_ftr {
+    display: inline-block;
+    float: right;
+    margin: 10px 40px auto auto;
+}
+
+.nav_ftr {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.nav_ftr  > a {
+    color: white;
+}
+
+.nav_ftr::after {
+    content: "|";
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.nav_ftr:last-of-type:after{
+    content: "";
+}
+
+
+/*catalogs*/
+
+.products_list {padding:0;list-style-type:none;}
+.products_list:after {content: '.';display: block;clear:both;visibility: hidden;height:0;font-size:0;}
+.products_list li {display:-moz-inline-box;display:inline-block;width:200px;height:200px;margin-right:20px;margin-bottom:20px;
+    margin-top: 20px;margin-left: 20px; border: 5px solid #c2c2c2;}
+.products_list li .info {color:#999;}
+.products_list li .info a {color:#999;}
+
+
+
+.products {padding:10px 0 30px;list-style-type:none;}
+.products:after {content: '.';display: block;clear:both;visibility: hidden;height:0;font-size:0;}
+.products li {float:left;margin-right:20px;margin-bottom:10px;}
+
+/* Class of images, left block */
+.curcuma_left {
+    float: left;
+    width: 290px;
+    /*border: 2px solid blue;*/
+}
+
+/* Class of decriprtion, right block */
+.curcuma_right {
+    float: right;
+    width: 570px;
+    margin-right: 90px;
+    /*border: 2px solid gray;*/
+}
+
+/* CSS style of zoomed image. ID of <img> */
+#image_main {
+    border: 10px solid #ffffff;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Параметры тени */
+}
+
+/* Horizontal list of image previews */
+.chs_image_list > div {
+    padding-top: 15px;
+    display: inline-block;
+    width: 60px;
+    float: left;
+}
+
+/* H1 of description */
+h1 {
+    font: 20pt Trebuchet MS;
+    color: #d70101;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* H2 of description */
+h2 {
+    font: italic 14pt Trebuchet MS;
+    color: #006600;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/* Paragraph of description */
+.curcuma_right > p {
+    font: 10pt Trebuchet MS;
+    color: #000000;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-right: 0px;
+}
+
+/* The address line of page     some > some > this page */
+.page_path {
+    font: 12pt Trebuchet MS;
+    color: #006699;
+    margin-bottom: 20px;
+}
+
+/* Links of page path */
+.page_path > a {
+    font: 12pt Trebuchet MS;
+    color: #006699;
+}
+
+.catalog_list {
+    padding-top: 0px;
+    float: left;
+}
+
+.catalog_list_item {
+    display: inline-block;
+    width: 170px;
+    margin: 0px;
+    text-align: center;
+
+    padding-top: 10px;
+    margin-top: 0px;
+
+    vertical-align: top;
+    float: left;
+}
+
+.catalog_list_item > img {
+    border: 6px solid #ffffff;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); /* Параметры тени */
+    /*vertical-align: top;*/
+
+}
+
+.catalog_list_item > a {
+    font: 12pt Georgia;
+    color: #006699;
+}
