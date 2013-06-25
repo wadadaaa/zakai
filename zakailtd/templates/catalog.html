@@ -59,13 +59,13 @@
                     {% for child in childs %}
 
                      <img src="{{ child.photo|thumbnail_url:'small' }}">
-                     <br>
+
                      <a href="{{ child.get_absolute_url }}">{{ child.en_name }}</a>
 
                    {% endfor %}
-
             {% endif %}
             </div>
+        <br>
         </div>
 
                 <div class="catalog_list">
