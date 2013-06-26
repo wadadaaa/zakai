@@ -9,10 +9,11 @@
 
     <title>{{ index_page.title }}</title>
 
-
+      
 </head>
 <body>
 <div id="page">
+
     <!-- head -->
     <div id="head" class="block">
 
@@ -43,74 +44,80 @@
                 <!-- content -->
 
                 <div class="page_path">
-                    <a href="#">Home</a>
+                    <a href="/">Home</a>
                     >
-                    Catalog
-                </div>
+                    <a href="{{ catalog.get_absolute_url }}">{{ catalog.en_name }} </a>                </div>
 
 
 
-        <div class="catalog_list">
-            <h1>{{ catalog.en_name }}</h1>
-            <div class="catalog_list_item">
-
-        {% if childs %}
-
-                    {% for child in childs %}
-
-                     <img src="{{ child.photo|thumbnail_url:'small' }}">
-
-                     <a href="{{ child.get_absolute_url }}">{{ child.en_name }}</a>
-
-                   {% endfor %}
-            {% endif %}
-            </div>
-        <br>
-        </div>
+                <h1>{{ catalog.en_name }}</h1>
 
                 <div class="catalog_list">
 
-                <div class="catalog_list_item">
+
                     {% if catalog.product_set.all %}
 
 
                         {% for product in catalog.product_set.all %}
 
-                           <img src="{{ product.photo|thumbnail_url:'small' }}">
+                            <li class="product_li">
 
-                           <a href="{{ product.get_absolute_url }}">{{ product.en_name }}</a>
+                                <img src="{{ product.photo|thumbnail_url:'small' }}">
+
+                                <a href="{{ product.get_absolute_url }}">{{ product.en_name }}</a>
+                            </li>
 
                         {% endfor %}
 
-                     {% endif %}
+                    {% endif %}
 
                 </div>
-                <br>
+
+
+                <div class="catalog_list">
+
+
+                    {% if childs %}
+
+                        {% for child in childs %}
+                            <li class="product_li">
+                                <img src="{{ child.photo|thumbnail_url:'small' }}">
+
+                                <a href="{{ child.get_absolute_url }}">{{ child.en_name }} </a>
+                            </li>
+
+                        {% endfor %}
+
+                    {% endif %}
+
+
                 </div>
+
+            </div>
 
         </div>
 
-</div>
- </div>
+    </div>
+
 
 
 <!-- footer -->
 <div id="ftr" class="block">
     <div id="txt_ftr">&copy;2012 Zakai Agricultural Know-How & Inputs Ltd.<br>
         Industrial Area Mishor Adumim Israel 98510<br>
-        Tel: 972-2-5901333 Fax: 972-2-5901336   Email: <a href="mailto:zakai@zakailtd.co.il">zakai@zakailtd.co.il
-    </div>
-
+        Tel: 972-2-5901333 Fax: 972-2-5901336   Email: <a href="mailto:zakai@zakailtd.co.il">zakai@zakailtd.co.il</div>
     <div id="nav_ftr">
-        <div class="nav_ftr"><a href="/zakai/#">Home</a></div>
+        <div class="nav_ftr"><a href="/">Home</a></div>
         <div class="nav_ftr"><a href="/profile/">Profile</a></div>
         <div class="nav_ftr"><a href="/catalog/">Catalog</a></div>
         <div class="nav_ftr"><a href="/representations/">Representations</a></div>
         <div class="nav_ftr"><a href="/contact/">Contact us</a></div>
     </div>
 </div>
-    </div>
 
 
+
+</div>
 </body>
+
 </html>

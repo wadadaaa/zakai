@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e707c4eb-fc60-4ea8-8639-87c113ee1413" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/zakailtd/media/product_pic/086361b0dc09.jpeg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-management-example" afterPath="$PROJECT_DIR$/project-management-example" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zakailtd/zakailtd.db" afterPath="$PROJECT_DIR$/zakailtd/zakailtd.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zakailtd/templates/catalog.html" afterPath="$PROJECT_DIR$/zakailtd/templates/catalog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zakailtd/templates/catalogs.html" afterPath="$PROJECT_DIR$/zakailtd/templates/catalogs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zakai/static/css/main.css" afterPath="$PROJECT_DIR$/zakai/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zakailtd/templates/product.html" afterPath="$PROJECT_DIR$/zakailtd/templates/product.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Archive.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e707c4eb-fc60-4ea8-8639-87c113ee1413" time="1372178052867" ignored="false" />
-    <file path="/catalog.html" changelist="e707c4eb-fc60-4ea8-8639-87c113ee1413" time="1372178531351" ignored="false" />
-    <file path="/main.css" changelist="e707c4eb-fc60-4ea8-8639-87c113ee1413" time="1371657171216" ignored="false" />
+    <file path="/Dummy.txt" changelist="e707c4eb-fc60-4ea8-8639-87c113ee1413" time="1372265850484" ignored="false" />
+    <file path="/catalog.html" changelist="e707c4eb-fc60-4ea8-8639-87c113ee1413" time="1372277603852" ignored="false" />
+    <file path="/main.css" changelist="e707c4eb-fc60-4ea8-8639-87c113ee1413" time="1372275915391" ignored="false" />
     <file path="/index.html" changelist="e707c4eb-fc60-4ea8-8639-87c113ee1413" time="1362941575514" ignored="false" />
     <file path="/settings.py" changelist="e707c4eb-fc60-4ea8-8639-87c113ee1413" time="1371655338352" ignored="false" />
     <file path="/catalogs.html" changelist="e707c4eb-fc60-4ea8-8639-87c113ee1413" time="1372178419977" ignored="false" />
-    <file path="/product.html" changelist="e707c4eb-fc60-4ea8-8639-87c113ee1413" time="1371655543196" ignored="false" />
+    <file path="/product.html" changelist="e707c4eb-fc60-4ea8-8639-87c113ee1413" time="1372270696932" ignored="false" />
     <file path="/default.html" changelist="e707c4eb-fc60-4ea8-8639-87c113ee1413" time="1371655742932" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,19 +40,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="catalogs.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zakailtd/templates/catalogs.html">
+      <file leaf-file-name="catalog.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zakailtd/templates/catalog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-10.416667">
+            <state line="77" column="0" selection-start="2030" selection-end="2030" vertical-scroll-proportion="-25.625">
+              <folding>
+                <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zakailtd/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="100" column="25" selection-start="3404" selection-end="3405" vertical-scroll-proportion="0.15402567">
+              <folding>
+                <element signature="e#42#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zakai/static/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="269" column="1" selection-start="4552" selection-end="4552" vertical-scroll-proportion="-5.36">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zakai/models.py">
+      <file leaf-file-name="catalogs.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zakailtd/templates/catalogs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="40" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0">
+            <state line="61" column="0" selection-start="1765" selection-end="1765" vertical-scroll-proportion="-22.75">
               <folding />
             </state>
           </provider>
@@ -54,7 +84,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zakailtd/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="1036" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -63,55 +93,10 @@
       <file leaf-file-name="product.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zakailtd/templates/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="16" selection-start="2634" selection-end="2661" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zakai/static/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="21" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="catalog.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zakailtd/templates/catalog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="34" selection-start="1367" selection-end="1367" vertical-scroll-proportion="-5.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.jscrollpane.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zakai/static/js/jquery.jscrollpane.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="101" selection-start="12149" selection-end="12149" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zakailtd/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.049833886">
+            <state line="89" column="7" selection-start="2965" selection-end="3771" vertical-scroll-proportion="-33.458332">
               <folding>
-                <element signature="e#42#51#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zakai/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="21" selection-start="1631" selection-end="1631" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -148,20 +133,21 @@
         <option value="$PROJECT_DIR$/zakailtd/urls.py" />
         <option value="$PROJECT_DIR$/zakai/models.py" />
         <option value="$PROJECT_DIR$/zakailtd/templates/index.html" />
-        <option value="$PROJECT_DIR$/zakailtd/templates/product.html" />
         <option value="$PROJECT_DIR$/zakailtd/templates/flatpages/default.html" />
-        <option value="$PROJECT_DIR$/zakai/static/css/main.css" />
         <option value="$PROJECT_DIR$/zakailtd/templates/catalogs.html" />
-        <option value="$PROJECT_DIR$/zakailtd/templates/catalog.html" />
+        <option value="$PROJECT_DIR$/zakailtd/templates/product.html" />
+        <option value="$PROJECT_DIR$/zakailtd/templates/base.html" />
+        <option value="$PROJECT_DIR$/zakai/static/css/main.css" />
         <option value="$PROJECT_DIR$/zakailtd/settings.py" />
+        <option value="$PROJECT_DIR$/zakailtd/templates/catalog.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1042" />
+    <option name="x" value="827" />
     <option name="y" value="22" />
-    <option name="width" value="815" />
-    <option name="height" value="1067" />
+    <option name="width" value="1146" />
+    <option name="height" value="1076" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -189,6 +175,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -253,11 +249,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flatpages" />
+              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,10 +282,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,27 +309,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -469,17 +448,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1042" y="22" width="815" height="1067" extended-state="0" />
+    <frame x="827" y="22" width="1146" height="1076" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40182054" sideWeight="0.6880927" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21272728" sideWeight="0.6880927" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31190726" sideWeight="0.9960988" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31190726" sideWeight="0.9960988" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -550,17 +529,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zakai/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="73" selection-start="2682" selection-end="2682" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zakailtd/templates/catalog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="0" selection-start="1978" selection-end="1978" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,13 +572,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zakailtd/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zakai/static/js/jquery.jscrollpane.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="101" selection-start="12149" selection-end="12149" vertical-scroll-proportion="0.0">
@@ -618,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zakailtd/templates/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="16" selection-start="2634" selection-end="2661" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zakailtd/templates/flatpages/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="21" selection-start="904" selection-end="912" vertical-scroll-proportion="0.0">
@@ -632,30 +593,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zakai/static/css/main.css">
+    <entry file="file://$PROJECT_DIR$/zakailtd/templates/catalogs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="21" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0">
+        <state line="61" column="0" selection-start="1765" selection-end="1765" vertical-scroll-proportion="-22.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zakailtd/templates/catalogs.html">
+    <entry file="file://$PROJECT_DIR$/zakailtd/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1069" selection-end="1069" vertical-scroll-proportion="-10.416667">
+        <state line="0" column="0" selection-start="0" selection-end="1036" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zakailtd/templates/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="7" selection-start="2965" selection-end="3771" vertical-scroll-proportion="-33.458332">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zakai/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="269" column="1" selection-start="4552" selection-end="4552" vertical-scroll-proportion="-5.36">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zakailtd/templates/catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="34" selection-start="1367" selection-end="1367" vertical-scroll-proportion="-5.0">
-          <folding />
+        <state line="77" column="0" selection-start="2030" selection-end="2030" vertical-scroll-proportion="-25.625">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zakailtd/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.049833886">
+        <state line="100" column="25" selection-start="3404" selection-end="3405" vertical-scroll-proportion="0.15402567">
           <folding>
             <element signature="e#42#51#0" expanded="true" />
           </folding>
